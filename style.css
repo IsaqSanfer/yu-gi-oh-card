@@ -1,0 +1,59 @@
+body {
+    background-image: url(background.jpg);
+    background-position: center;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: #A88658;
+    border-radius: 5px;
+    border: 15px solid #302f2f;
+    box-shadow: 7px 7px 13px 7px;
+    padding: 10px;
+    width: 400px;
+    transition: all 0.3s ease-out;
+}
+
+.tittle {
+    display: inline-block;
+    padding-left: .5rem;
+}
+
+.attribute {
+    float: right;
+    width: 50px;
+    
+}
+/*
+.level {
+    float: right;
+    width: 30px;
+    
+}
+*/
+.illustration {
+    width: 370px;
+    display: block;
+    margin: auto;
+    box-shadow: 0 0 10px;
+}
+
+.description {
+    border: 5px solid #834f0d;
+    background-color: #f2e1c3;
+    padding: .5rem;
+    margin-top: 15px;
+}
+
+.card p {
+    font-size: 12px;
+    font-style: italic;
+    line-height: 0;
+}
+
+   
